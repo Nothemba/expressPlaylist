@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>playlist</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+</head>
+
+<body>
+    <form action="post">
+    <div class="container">
+        <div class="topbar">
+            <h2> My Playlist</h2>
+        </div>
+        <div class="columns">
+            <div class="listColumn">
+                <div class="card">
+                    <h3>List of Musicians</h3>
+                    <ul>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="column2">
+                <div class="contents">
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" class="input" placeholder="Enter musician name">
+                        </div>
+                        <div class="col-4">
+                            <div class="add">
+                                <button class="btn btn-add">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" class="input h-input" placeholder="Enter new musician name">
+                            <input type="text" class="input-id" placeholder="ID - musician you want to change">
+                        </div>
+                        <div class="col-4">
+                            <div class="edit">
+                                <button class="btn btn-edit">Edit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" class="input-id input-delete"
+                                placeholder="ID - musician you want to delete">
+                        </div>
+                        <div class="col-4">
+                            <div class="delete">
+                                <button class="btn btn-delete">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sort-list">
+                    <button class="btn btn-sort">Sort List</button>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    </form>
+    <script src="index.js"></script>
+    <script src="server.js"></script>
+</body>
+
+</html>
+<!-- 
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <form action="/submit-student-data" method="post">
+        First Name: <input name="firstName" type="text" /> <br />
+        Last Name: <input name="lastName" type="text" /> <br />
+        <input type="submit" />
+    </form>
+</body>
+
+</html> -->
